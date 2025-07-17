@@ -17,7 +17,10 @@ int main()
     scanf("%d",&p);
     printf("enter a position:");
     scanf("%d",&n);
+    printf("%d in binary  : ",m);
+    for(int i=31;i>=0;i--)
+    printf("%d",(m&(1<<i))?1:0);
+    printf("\nextracted bits : ");
     for(int i=n+p;i>n;i--)
     printf("%d",(m&(1<<i))?1:0);
-
 }

@@ -10,14 +10,15 @@ int main()
     scanf("%d",&num);
     printf("Enter position:");
     scanf("%d",&pos);
+    printf("\n Set the particular bit \n");
     num= num|(1<<pos);//set a bit
     for(int i=31;i>=0;i--)
     printf("%d",(num&1<<i)?1:0);
     num= num & ~(1<<pos);//clear a bit
-    printf("\n clearing operation \n");
+    printf("\n clear the particular bit \n");
     for(int i=31;i>=0;i--)
     printf("%d",(num&1<<i)?1:0);
-    printf("\n Toggle a bit \n");
+    printf("\n Toggle the particular bit \n");
     num = num ^ (1<<pos);// toggle  a bit
     for(int i=31;i>=0;i--)
     printf("%d",(num&1<<i)?1:0);

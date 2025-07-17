@@ -1,5 +1,5 @@
 /*
-WAP to find the given number is even or odd using bitwise operators.
+2.WAP to find the given number is even or odd using bitwise operators.
 */
 #include<stdio.h>
 int main()
