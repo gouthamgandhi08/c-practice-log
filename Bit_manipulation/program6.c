@@ -1,5 +1,5 @@
 /*
-WAP to find the given number is divisble by 8 or not using bitwise operators.
+6. WAP to find the given number is divisble by 8 or not using bitwise operators.
 */
 #include<stdio.h>
 int main()

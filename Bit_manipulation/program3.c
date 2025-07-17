@@ -1,5 +1,5 @@
 /*
-WAP to find the given number is +ve or -ve using bitwise operators.
+3. WAP to find the given number is +ve or -ve using bitwise operators.
 */
 #include<stdio.h>
 int main()
