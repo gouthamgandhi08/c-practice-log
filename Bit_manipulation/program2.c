@@ -8,5 +8,4 @@ int main()
     printf("enter a number:");
     scanf("%d",&num);
     printf("%s",(num & (1<<0))?"odd":"even");
-
 }
